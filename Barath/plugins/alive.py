@@ -23,7 +23,7 @@ async def alive():
     ALIVE_TEX = "ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴍᴀꜱᴛᴇʀ"
     EMOTES = ["😍", "💀", "😊", "👋", "🎉", "🔥", "🌟", "💫", "🚀", "🤖", "👻", "👾", "🧡"]
 
-    photo_url = "https://telegra.ph/file/e90d5a6fcca486f10025b.mp4"
+    photo_url = "https://graph.org/file/cb9edbd85dc24d1459cb6.mp4"
     
     ALIVE_TEXT = f"""{ALIVE_TEX}
 ▰▱▰▱▰▱▰▱▰▱▰▱▰
@@ -35,8 +35,6 @@ async def alive():
 ➤ <b>Python:</b> {pyrover}
 
 <b>ᴜꜱᴇʀʙᴏᴛ</b> {user_hyperlink}
-
-<b>Source: <a href='{SOURCE}'>PyroX-V2</a></b>"""
 
 
     return ALIVE_TEXT, photo_url
