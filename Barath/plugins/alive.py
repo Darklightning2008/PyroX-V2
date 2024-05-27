@@ -77,8 +77,7 @@ __mod_name__ = "STATUS"
     
 __help__ = """  
 - alive: to check bot on/off
-- ping: check response of server
-"""  
+- ping: check response of server """  
 
 
 string = {"module": __mod_name__, "help": __help__}   
