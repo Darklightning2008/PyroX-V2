@@ -2,7 +2,7 @@ import time
 import random 
 import asyncio
 import config
-from config import HANDLER, OWNER_ID, BARATH,SOURCE
+from config import HANDLER, OWNER_ID, BARATH, SOURCE
 from pyrogram import filters, __version__ as pyrover, enums
 from Barath import barath, get_readable_time, StartTime
 from Barath import bot, MODULE
@@ -34,8 +34,7 @@ async def alive():
 ➤ <b>ᴘɪɴɢ:</b> {ping_time} ms
 ➤ <b>Python:</b> {pyrover}
 
-<b>ᴜꜱᴇʀʙᴏᴛ</b> {user_hyperlink}
-
+<b>ᴜꜱᴇʀʙᴏᴛ</b> {user_hyperlink}"""
 
     return ALIVE_TEXT, photo_url
 
@@ -77,8 +76,7 @@ __mod_name__ = "STATUS"
     
 __help__ = """  
 - alive: to check bot on/off
-- ping: check response of server """  
-
+- ping: check response of server """  # This was missing the closing triple-quote
 
 string = {"module": __mod_name__, "help": __help__}   
 MODULE.append(string)
