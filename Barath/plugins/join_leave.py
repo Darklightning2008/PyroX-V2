@@ -5,7 +5,7 @@ from Barath import bot, barath
 from config import OWNER_ID,HANDLER
 import asyncio
 
-ASS_USERNAME="LelouchTheZeroo"
+ASS_USERNAME="DARKTHEGOD"
 
 @barath.on_message(filters.command("join", prefixes=HANDLER) & filters.me)
 async def joinchat(client, message):
