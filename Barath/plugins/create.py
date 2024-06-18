@@ -1,5 +1,5 @@
 from pyrogram.types import Message
-from pyrogram import Client
+from pyrogram import Client, filters
 
 
 @Client.on_message(filters.command("create", ".") & filters.me)
